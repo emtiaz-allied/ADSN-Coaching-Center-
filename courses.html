@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Courses - ADSN Coaching Center</title>
+  <style>
+    .navbar {
+  background: linear-gradient(to right, #00bcd4, #ff4081);
+  padding: 12px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 25px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #cf6363c7;
+    }
+    header {
+      background: linear-gradient(to right, #2c532d, #933d23);
+      color: rgb(218, 230, 151);
+      text-align: center;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .courses {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 30px;
+    }
+    .course-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .course-card:hover {
+      transform: scale(1.05);
+    }
+    .course-card h3 {
+      color: #673ab7;
+    }
+    .course-card p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+   
+  <header>Our Courses</header>
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="teacher.html">Teachers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="courses">
+    <div class="course-card">
+      <h3>SSC Coaching</h3>
+      <p>Special guidance for SSC students with expert teachers.</p>
+    </div>
+    <div class="course-card">
+      <h3>HSC Coaching</h3>
+      <p>Advanced preparation for HSC exams with modern techniques.</p>
+    </div>
+    <div class="course-card">
+      <h3>Admission Test</h3>
+      <p>University admission test preparation with mock exams.</p>
+    </div>
+    <div class="course-card">
+      <h3>Diploma in Engineering</h3>
+      <p>Focused coaching for diploma students with practical support.</p>
+    </div>
+  </div>
+</body>
+
+</html>
